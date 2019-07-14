@@ -4,7 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef110059-e9ff-41e5-bbd2-15a0d789d2ed" name="Default" comment="" />
+    <list default="true" id="ef110059-e9ff-41e5-bbd2-15a0d789d2ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/demo/factorys/review/Client2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SimpleFactoryDemo1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleFactoryDemo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/demo/factorys/review/SimpleFactoryDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="779">
               <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/demo/factorys/review/Client2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -71,6 +83,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -176,6 +191,11 @@
             <path>
               <item name="JavaPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaPattern" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,6 +246,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14609376" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -402,7 +423,7 @@
       <workItem from="1563003750936" duration="502000" />
       <workItem from="1563004289453" duration="55000" />
       <workItem from="1563004367796" duration="2480000" />
-      <workItem from="1563083840158" duration="1808000" />
+      <workItem from="1563083840158" duration="2412000" />
     </task>
     <task id="LOCAL-00001" summary="java设计模式">
       <created>1563085164145</created>
@@ -415,11 +436,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110835000" />
+    <option name="totallyTimeSpent" value="111439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1166" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3296146" />
@@ -440,7 +460,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32991803" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18141593" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6133005" visible="true" weight="0.16098295" />
@@ -461,6 +481,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -509,13 +555,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/demo/factorys/factorymethod/FactoryMethodDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/demo/factorys/abstractfactory1/ProductionClient1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -883,6 +922,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/demo/factorys/review/Client2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
