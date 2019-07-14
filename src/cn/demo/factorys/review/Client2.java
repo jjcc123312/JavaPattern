@@ -8,5 +8,7 @@ package cn.demo.factorys.review;
  * @createTime 2019年07月14日 14:28:00
  */
 public class Client2 {
-
+    public static void main(String[] args){
+        System.out.println("==");
+    }
 }
