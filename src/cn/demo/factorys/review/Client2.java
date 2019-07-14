@@ -10,5 +10,8 @@ package cn.demo.factorys.review;
 public class Client2 {
     public static void main(String[] args){
         System.out.println("==");
+        Integer a1 = 12454;
+        Integer a2 = 111;
+        System.out.println(a1.equals(a2));
     }
 }
