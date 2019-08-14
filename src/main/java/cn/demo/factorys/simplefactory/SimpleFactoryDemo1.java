@@ -1,4 +1,4 @@
-package main.java.cn.demo.factorys.simplefactory;
+package cn.demo.factorys.simplefactory;
 
 /**
  * 简单工厂模式

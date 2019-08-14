@@ -1,4 +1,4 @@
-package main.java.cn.demo.factorys.review;
+package cn.demo.factorys.review;
 
 
 /**
@@ -75,7 +75,7 @@ interface IFactory {
     * @author: Jjcc
     * @title: getInstance
     * @param: []
-    * @return: main.java.cn.demo.factorys.review.ITyre
+    * @return: cn.demo.factorys.review.ITyre
     * @createTime: 2019/7/11 22:26
     * @throws
     */

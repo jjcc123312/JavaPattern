@@ -1,4 +1,4 @@
-package main.java.cn.demo.factorys.abstractfactory1;
+package cn.demo.factorys.abstractfactory1;
 
 /**
  * 产品族产品结构 - 工厂类实现类

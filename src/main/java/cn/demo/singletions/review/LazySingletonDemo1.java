@@ -1,4 +1,4 @@
-package main.java.cn.demo.singletions.review;
+package cn.demo.singletions.review;
 
 
 import java.io.Serializable;

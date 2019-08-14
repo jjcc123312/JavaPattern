@@ -1,4 +1,4 @@
-package main.java.cn.demo.singletions;
+package cn.demo.singletions;
 
 /**
  * 双重检测锁

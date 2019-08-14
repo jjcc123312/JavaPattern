@@ -1,4 +1,4 @@
-package main.java.cn.demo.singletions;
+package cn.demo.singletions;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -46,7 +46,7 @@ public class SingletonDemo4 {
         System.out.println(instance.hashCode());
 
         try {
-            Class<?> aClass = Class.forName("main.java.cn.demo.singletions.SingletonDemo4");
+            Class<?> aClass = Class.forName("cn.demo.singletions.SingletonDemo4");
             try {
                 Constructor<?> declaredConstructor = aClass.getDeclaredConstructor();
                 SingletonDemo4 o = (SingletonDemo4) declaredConstructor.newInstance();

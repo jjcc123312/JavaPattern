@@ -1,4 +1,4 @@
-package main.java.cn.demo.factorys.abstractfactory1;
+package cn.demo.factorys.abstractfactory1;
 
 /**
  * car-座椅

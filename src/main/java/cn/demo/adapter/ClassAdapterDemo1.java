@@ -1,4 +1,4 @@
-package main.java.cn.demo.adapter;
+package cn.demo.adapter;
 
 /**
  * adapter-类适配器

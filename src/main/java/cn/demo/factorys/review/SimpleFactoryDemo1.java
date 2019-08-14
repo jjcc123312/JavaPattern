@@ -1,4 +1,4 @@
-package main.java.cn.demo.factorys.review;
+package cn.demo.factorys.review;
 
 /**
  * 工厂模式-简单工厂模式;

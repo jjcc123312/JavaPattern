@@ -1,4 +1,4 @@
-package main.java.cn.demo.singletions.review;
+package cn.demo.singletions.review;
 
 /**
  * 单例模式-静态内部类

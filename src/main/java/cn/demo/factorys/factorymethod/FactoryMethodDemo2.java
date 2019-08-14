@@ -1,4 +1,4 @@
-package main.java.cn.demo.factorys.factorymethod;
+package cn.demo.factorys.factorymethod;
 
 /**
  * 工厂方法模式

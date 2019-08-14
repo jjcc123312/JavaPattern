@@ -1,4 +1,4 @@
-package main.java.cn.demo.prototype;
+package cn.demo.prototype;
 
 
 /**

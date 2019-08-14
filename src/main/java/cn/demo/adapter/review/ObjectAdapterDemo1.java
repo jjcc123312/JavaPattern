@@ -1,4 +1,4 @@
-package main.java.cn.demo.adapter.review;
+package cn.demo.adapter.review;
 
 /**
  * 适配器-对象适配器；

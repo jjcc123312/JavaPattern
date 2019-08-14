@@ -1,4 +1,4 @@
-package main.java.cn.demo.prototype.review;
+package cn.demo.prototype.review;
 
 import java.io.*;
 

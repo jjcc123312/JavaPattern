@@ -1,4 +1,4 @@
-package main.java.cn.demo.factorys.abstractfactory1.abstractfactory2;
+package cn.demo.factorys.abstractfactory1.abstractfactory2;
 
 /**
  * 抽象工厂模式;

@@ -1,4 +1,4 @@
-package main.java.cn.demo.singletions.review;
+package cn.demo.singletions.review;
 
 /**
  * Create by Jjcc on 2019/7/9 23:41
@@ -24,7 +24,7 @@ public class Client1 {
 //        System.out.println(instance2.hashCode());
 
 //        try {
-//            Class<?> aClass = Class.forName("main.java.cn.demo.singletions.review.StaticInnerClassSingletonDemo1");
+//            Class<?> aClass = Class.forName("cn.demo.singletions.review.StaticInnerClassSingletonDemo1");
 //            Constructor<?> constructor = aClass.getDeclaredConstructor(null);
 //            constructor.setAccessible(true);
 //            StaticInnerClassSingletonDemo1 o = (StaticInnerClassSingletonDemo1) constructor.newInstance(null);
@@ -77,7 +77,7 @@ public class Client1 {
 //        System.out.println(instance2.hashCode());
 
 //        try {
-//            Class<?> aClass = Class.forName("main.java.cn.demo.singletions.review.EagerSingletonDemo1");
+//            Class<?> aClass = Class.forName("cn.demo.singletions.review.EagerSingletonDemo1");
 ////            EagerSingletonDemo1 o = (EagerSingletonDemo1) aClass.newInstance();
 //
 //            Constructor<?> declaredConstructor = aClass.getDeclaredConstructor(null);

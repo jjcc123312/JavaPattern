@@ -1,4 +1,4 @@
-package main.java.cn.demo.factorys.review;
+package cn.demo.factorys.review;
 
 
 /**
@@ -141,7 +141,7 @@ interface ICarFactory1 {
      * @author: Jjcc
      * @title: getEngine
      * @param: []
-     * @return: main.java.cn.demo.factorys.review.IEngine1
+     * @return: cn.demo.factorys.review.IEngine1
      * @createTime: 2019/7/11 23:19
      * @throws:
      */
@@ -153,7 +153,7 @@ interface ICarFactory1 {
      * @author: Jjcc
      * @title: getTyre
      * @param: []
-     * @return: main.java.cn.demo.factorys.review.ITyre1
+     * @return: cn.demo.factorys.review.ITyre1
      * @createTime: 2019/7/11 23:21
      * @throws:
      */
