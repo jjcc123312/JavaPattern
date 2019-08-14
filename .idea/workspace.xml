@@ -21,57 +21,13 @@
       <change afterPath="$PROJECT_DIR$/out/production/JavaPattern/cn/demo/adapter/review/WebFunction.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/JavaPattern/cn/demo/prototype/review/Person.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/JavaPattern/cn/demo/prototype/review/PrototypeDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/ClassAdapterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/ClassAdapterDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/ClassAdapterDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/ClassAdapterDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/InterfaceAdapterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/InterfaceAdapterDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/ObjectAdapterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/ObjectAdapterDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/ObjectAdapterDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/ObjectAdapterDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/review/ClassAdapterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/review/ClassAdapterDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/review/InterfaceAdapterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/review/InterfaceAdapterDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/review/ObjectAdapterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/review/ObjectAdapterDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/review/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/review/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/AbstractFactoryDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/AbstractFactoryDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ICarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ICarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ICarFactory2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ICarFactory2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ICarWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ICarWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/IEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/IEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ISeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ISeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ITyre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ITyre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/LowCarFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/LowCarFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/LuxuryCarFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/LuxuryCarFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/PopularFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/PopularFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ProductionClient1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/ProductionClient1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/abstractfactory2/AbstractFactoryDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/abstractfactory1/abstractfactory2/AbstractFactoryDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/Android.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/AndroidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/AndroidFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/AppleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/AppleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/Client1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/FactoryMethodDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/FactoryMethodDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/FactoryMethodDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/FactoryMethodDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/HWFacotry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/HWFacotry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/HWPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/HWPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/PhoneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/factorymethod/PhoneFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/review/AbstractFactoryDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/review/AbstractFactoryDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/review/FactoryMethodDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/review/FactoryMethodDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/review/SimpleFactoryDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/review/SimpleFactoryDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/simplefactory/SimpleFactoryDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/factorys/simplefactory/SimpleFactoryDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/prototype/PrototypeDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/prototype/PrototypeDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/prototype/PrototypeDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/prototype/PrototypeDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/prototype/review/PrototypeDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/prototype/review/PrototypeDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/Client1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/SingletonDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/Client1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/DetectionSingletonDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/DetectionSingletonDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/EagerSingletonDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/EagerSingletonDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/EnumSingletonDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/EnumSingletonDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/LazySingletonDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/LazySingletonDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/StaticInnerClassSingletonDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/demo/singletions/review/StaticInnerClassSingletonDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/soundcode/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/soundcode/DispatchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/soundcode/HandlerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/soundcodedemo1/DispatchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/soundcodedemo1/IController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/demo/adapter/soundcodedemo1/IHandlerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,26 +43,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindBugs-IDEA-Workspace">
     <toolWindowEditorPreview>false</toolWindowEditorPreview>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>9999</find>
-      <find>need</find>
-      <find>1999</find>
-      <find>AudiEngineImpl</find>
-      <find>close</find>
-      <find>read(</find>
-      <find>new String(</find>
-      <find>@Description</find>
-      <find>@description</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,7 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/main/java/cn/demo" />
-    <property name="last_opened_file_path" value="D:/workspace/csflow2019" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/demo/adapter/soundcode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -145,6 +88,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.demo.factorys.abstractfactory1.abstractfactory2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaSE\JavaPattern\src\main\java\cn\demo\adapter\soundcode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +281,8 @@
       <workItem from="1564497463829" duration="2139000" />
       <workItem from="1564841288107" duration="599000" />
       <workItem from="1565662839721" duration="2374000" />
-      <workItem from="1565746241833" duration="2270000" />
+      <workItem from="1565746241833" duration="3027000" />
+      <workItem from="1565788104254" duration="5087000" />
     </task>
     <task id="LOCAL-00001" summary="java设计模式">
       <created>1563085164145</created>
@@ -386,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565749874783</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更改成Maven项目">
+      <created>1565750547718</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565750547718</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更改成Maven项目">
+      <created>1565750600578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565750600578</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +381,8 @@
     <MESSAGE value="dele code" />
     <MESSAGE value="123" />
     <MESSAGE value="review-prototypePattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="review-prototypePattern" />
+    <MESSAGE value="更改成Maven项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改成Maven项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
