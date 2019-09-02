@@ -24,7 +24,7 @@ class HttpControllerImpl implements IController {
     }
 }
 
-class AnnotationHandlerImpl implements IController {
+class AnnotationControllerImpl implements IController {
     public void annotationHandler() {
         System.out.println("annotationHandler...");
     }

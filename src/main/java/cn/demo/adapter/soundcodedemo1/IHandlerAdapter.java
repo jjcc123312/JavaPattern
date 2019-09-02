@@ -46,35 +46,35 @@ public interface IHandlerAdapter {
 class SimpleHandlerAdapter implements IHandlerAdapter {
     @Override
     public boolean supports(Object handler) {
-        return false;
+        return (handler instanceof SimpleControllerImpl);
     }
 
     @Override
     public void handler(Object handler) {
-
+        ((SimpleControllerImpl) handler).simpleHandler();
     }
 }
 
 class HttpHandlerAdapter implements IHandlerAdapter {
     @Override
     public boolean supports(Object handler) {
-        return false;
+        return (handler instanceof HttpControllerImpl);
     }
 
     @Override
     public void handler(Object handler) {
-
+        ((HttpControllerImpl) handler).httpHandler();
     }
 }
 
 class AnnotationHandlerAdapter implements IHandlerAdapter {
     @Override
     public boolean supports(Object handler) {
-        return false;
+        return (handler instanceof AnnotationControllerImpl);
     }
 
     @Override
     public void handler(Object handler) {
-
+        ((AnnotationControllerImpl) handler).annotationHandler();
     }
 }

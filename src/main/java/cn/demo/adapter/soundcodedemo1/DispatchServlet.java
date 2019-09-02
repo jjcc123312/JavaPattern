@@ -22,8 +22,22 @@ public class DispatchServlet {
         }
     };
 
-    public  void doDispatch() {
+    public void doDispatch() {
+//        SimpleControllerImpl controller = new SimpleControllerImpl();
+//        HttpControllerImpl controller = new HttpControllerImpl();
+        AnnotationControllerImpl controller = new AnnotationControllerImpl();
+        IHandlerAdapter handler = getHandler(controller);
+        handler.handler(controller);
+    }
 
+    public IHandlerAdapter getHandler(IController controller){
+        IHandlerAdapter ia = null;
+        for (IHandlerAdapter iHandlerAdapter : handlerAdapter) {
+            if (iHandlerAdapter.supports(controller)) {
+                ia = iHandlerAdapter;
+            }
+        }
+        return ia;
     }
 
     public static void main(String[] args){
