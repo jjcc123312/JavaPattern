@@ -48,6 +48,11 @@ abstract class BaseAdapter5 extends Adaptee5 implements ITarget5{
     public void method2() {
 
     }
+
+    @Override
+    public void method1() {
+        super.method1();
+    }
 }
 
 /**
