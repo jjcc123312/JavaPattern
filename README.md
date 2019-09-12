@@ -614,7 +614,7 @@ public enum SingletonDemo5 {
 
   对于增加新产品无能为力！不修改代码的话，是无法扩展的。
 
-  ![](https://github.com/jjcc123312/JavaPattern/blob/master/img/SimpleFactoryDemo1.png)
+  ![img](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/SimpleFactoryDemo1.png)
 
 ```java
 package cn.demo.factorys.simplefactory;
@@ -701,7 +701,7 @@ class SimpleFactory {
   - ***提供一个工厂类的接口***。工厂类均要实现这个接口(即抽象工厂)。
   - 由工厂实现类创建产品类的实例。工厂实现类应有一个方法，用来实例化产品类。
 
-![](https://github.com/jjcc123312/JavaPattern/blob/master/img/Client1.png)
+![](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/Client1.png)
 
 ```java
 package cn.demo.factorys.factorymethod;
@@ -794,17 +794,17 @@ class AppleFactory1 implements PhoneFactory1 {
 
   在抽象工厂模式中，**产品族是指由同一个工厂生产的，位于不同产品等级结构中的一组产品**，如海尔电器工厂生产的海尔电视机、海尔电冰箱，海尔电视机位于电视机产品等级结构中，海尔电冰箱位于电冰箱产品等级结构中，海尔电视机、海尔电冰箱构成了一个产品族。
 
-![img](https://github.com/jjcc123312/JavaPattern/blob/master/img/SouthEast)
+![img](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/SouthEast)
 
 在上图中，不同颜色的多个正方形、圆形和椭圆形分别构成了三个不同的产品等级结构，而相同颜色的正方形、圆形和椭圆形构成了一个产品族，每一个形状对象都位于某个产品族，并属于某个产品等级结构。图3中一共有五个产品族，分属于三个不同的产品等级结构。我们只要指明一个产品所处的产品族以及它所属的等级结构，就可以唯一确定这个产品。
 
-![img](https://github.com/jjcc123312/JavaPattern/blob/master/img/SouthEast1.png)
+![img](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/SouthEast1.png)
 
 在上图中, 当系统所提供的工厂生产的具体产品并不是一个简单的对象，而是多个位于不同产品等级结构、属于不同类型的具体产品时就可以使用抽象工厂模式。**抽象工厂模式是所有形式的工厂模式中最为抽象和最具一般性的一种形式。**抽象工厂模式与工厂方法模式最大的区别在于，工厂方法模式针对的是一个产品等级结构，而抽象工厂模式需要面对多个产品等级结构，一个工厂等级结构可以负责多个不同产品等级结构中的产品对象的创建。**当一个工厂等级结构可以创建出分属于不同产品等级结构的一个产品族中的所有对象时，抽象工厂模式比工厂方法模式更为简单、更有效率。**
 
 在上图中，**每一个具体工厂可以生产属于一个产品族的所有产品**，例如生产颜色相同的正方形、圆形和椭圆形，所生产的产品又位于不同的产品等级结构中。如果使用工厂方法模式，图4所示结构需要提供15个具体工厂，而使用抽象工厂模式只需要提供5个具体工厂，极大减少了系统中类的个数。
 
-![](https://github.com/jjcc123312/JavaPattern/blob/master/img/AbstractFactoryDemo2.png)
+![](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/AbstractFactoryDemo2.png)
 
 ```java
 package cn.demo.factorys.abstractfactory1.abstractfactory2;
@@ -1019,7 +1019,7 @@ class AudiCarFactory implements ICarFactory {
 - 完全克隆
   - 在包括上面两者共同点的基础上把对象间接引用的对象也进行拷贝(*对象中的子对象*)。这是最彻底的一种拷贝。通常先使对象序列化，实现Serializable接口 然后将对象写进二进制流里 再从二进制流里读出新对象。
 
-![1562571828972](https://github.com/jjcc123312/JavaPattern/blob/master/img/sd2asd2k913.png)
+![1562571828972](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/sd2asd2k913.png)
 
 ```java
 package cn.demo.factorys.prototype;
@@ -1271,7 +1271,7 @@ class PersonFactory {
 >
 > resource  类的方法在 Adapter 中都会暴露出来，也增加了使用的成本。
 
-![è¿éåå¾çæè¿°](https://github.com/jjcc123312/JavaPattern/blob/master/img/asdasd1231232)
+![è¿éåå¾çæè¿°](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/asdasd1231232)
 
 ```java
 package cn.demo.adapter;
@@ -1342,11 +1342,11 @@ class Adapter extends Adaptee implements ITarget {
 
 对象适配器模式是另外6种结构型设计模式的起源。 
 
-![è¿éåå¾çæè¿°](https://github.com/jjcc123312/JavaPattern/blob/master/img/sdfsdg31asdasd)
+![è¿éåå¾çæè¿°](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/sdfsdg31asdasd)
 
 从下面的结构图可以看出，`Adaptee`类并没有`method2()`方法，而客户端则期待这个方法。与类适配器模式一样，为使客户端能够使用Adaptee类，我们把`Adaptee`与`Target`衔接起来。但**这里我们不继承`Adaptee`，而是把`Adaptee`封装进`Adapter`里。这里`Adaptee`与`Adapter`是组合关系。** 
 
-![img](https://github.com/jjcc123312/JavaPattern/blob/master/img/asdasdsss21.png)
+![img](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/asdasdsss21.png)
 
 ```java
 package cn.demo.adapter;
@@ -1629,13 +1629,13 @@ class MethodOne extends BaseAdapter5 {
 
 现在对不同手机类型的不同品牌实现操作编程(比如:开机、关机、上网，打电话等)，如图:
 
-![1567869340473](https://github.com/jjcc123312/JavaPattern/blob/master/img/1567869340473.png)
+![1567869340473](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/1567869340473.png)
 
 **传统方案解决手机操作问题：**
 
 传统方法对应的类图
 
-![1567869389592](https://github.com/jjcc123312/JavaPattern/blob/master/img/1567869389592.png)
+![1567869389592](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/1567869389592.png)
 
 **传统方案解决手机操作问题分析：**
 
@@ -1651,7 +1651,7 @@ class MethodOne extends BaseAdapter5 {
 
 ### 2.3 桥接模式-原理类图
 
-<img src="https://github.com/jjcc123312/JavaPattern/blob/master/img/s1aoksfpo2112.png" alt="1566446264299" style="zoom:125%;" />
+<img src="https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/s1aoksfpo2112.png" alt="1566446264299" style="zoom:125%;" />
 
 **上图做了说明**
 
@@ -1664,7 +1664,7 @@ class MethodOne extends BaseAdapter5 {
 
 ### 2.4 案例
 
-![](https://github.com/jjcc123312/JavaPattern/blob/master/img/BasePhone.png)
+![](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/BasePhone.png)
 
 ```java
 package cn.demo.bridges.review;
@@ -1880,11 +1880,11 @@ public class Client {
 - ConcreteDecorator
   - 负责给构建对象增加新的功能；
 
-![1566914448373](https://github.com/jjcc123312/JavaPattern/blob/master/img/askdo2as1gd4.png)
+![1566914448373](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/askdo2as1gd4.png)
 
 ### 3.3 案例
 
-![1566916824863](https://github.com/jjcc123312/JavaPattern/blob/master/img/affsi123zxd2.png)
+![1566916824863](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/affsi123zxd2.png)
 
 ```java
 package cn.demo.decorators;
@@ -2034,11 +2034,11 @@ public class Client {
 
 **BufferedInputStream，DataInputStream类就是具体的装饰对象；**
 
-![1567000472950](https://github.com/jjcc123312/JavaPattern/blob/master/img/dof02as2koasdf.png)
+![1567000472950](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/dof02as2koasdf.png)
 
-![1567000581421](https://github.com/jjcc123312/JavaPattern/blob/master/img/asdko1asfo2-g.png)
+![1567000581421](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/asdko1asfo2-g.png)
 
-![1567000597493](https://github.com/jjcc123312/JavaPattern/blob/master/img/asdasd111d2.png)
+![1567000597493](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/asdasd111d2.png)
 
 ```java
 package com.atguigu.jdk;
@@ -2099,9 +2099,9 @@ public class Decorator {
 
 ### 4.2 组合模式原理类图
 
-![1567434148764](https://github.com/jjcc123312/JavaPattern/blob/master/img/fs21ofasd211.png)
+![1567434148764](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/fs21ofasd211.png)
 
-![1567434708911](https://github.com/jjcc123312/JavaPattern/blob/master/img/so2sdo1dasd1p.png)
+![1567434708911](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/so2sdo1dasd1p.png)
 
 - Component（抽象构建角色）：这是组合中对象声明接口，在适当情况下，实现所有类共有的接口默认行为，用于访问和管理Component子部件，Component可以是抽象类或者接口。**定义了叶子和容器构件的共同点**；
 - Leaf（叶子）：在组合中表示叶子节点，**叶子节点没有子节点**；
@@ -2114,7 +2114,7 @@ public class Decorator {
 编写程序展示一个学校院系结构：需求是这样，要在一个页面中展示出学校的院系组成，一个学校有多个学院，
 一个学院有多个系。
 
-![1567518556335](https://github.com/jjcc123312/JavaPattern/blob/master/img/asjdi21224.png)
+![1567518556335](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/asjdi21224.png)
 
 ```java
 package cn.demo.composite;
@@ -2392,7 +2392,7 @@ public class Department extends BaseOrganizationComponent {
 
 ### 4.4 JDK源码-组合模式场景
 
-![1567525792137](https://github.com/jjcc123312/JavaPattern/blob/master/img/123312123.png)
+![1567525792137](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/123312123.png)
 
 ```java
 package com.atguigu.jdk;
@@ -2495,7 +2495,7 @@ public class Composite {
 
 编写一个当主题对象状态发生改变时，其相关所有依赖对象都发生改变；
 
-![1567691597115](https://github.com/jjcc123312/JavaPattern/blob/master/img/1567691597115.png)
+![1567691597115](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/1567691597115.png)
 
 ```java
 package cn.demo.observer.review1;
@@ -2684,7 +2684,7 @@ public class ObserverImplA implements IObserver {
 
 ### 1.4 JDK源码-观察者模式场景
 
-![1567694095784](https://github.com/jjcc123312/JavaPattern/blob/master/img/1567694095784.png)
+![1567694095784](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/1567694095784.png)
 
 > JDK的`Observable`类和`Observer`类就是观察者模式的主题角色和观察者角色；
 
@@ -2719,7 +2719,7 @@ Observable 和 Observer 的使用方法和前面讲过的一样，只是 Observa
 
 ### 2.2 实现原理类图
 
-![1567954669139](https://github.com/jjcc123312/JavaPattern/blob/master/img/1567954669139.png)
+![1567954669139](https://raw.githubusercontent.com/jjcc123312/JavaPattern/master/img/1567954669139.png)
 
 
 
