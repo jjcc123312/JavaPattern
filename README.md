@@ -614,7 +614,7 @@ public enum SingletonDemo5 {
 
   对于增加新产品无能为力！不修改代码的话，是无法扩展的。
 
-  ![](.\img\SimpleFactoryDemo1.png)
+  ![](https://github.com/jjcc123312/JavaPattern/blob/master/img/SimpleFactoryDemo1.png)
 
 ```java
 package cn.demo.factorys.simplefactory;
