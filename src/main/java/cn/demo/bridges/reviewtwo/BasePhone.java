@@ -11,6 +11,9 @@ package cn.demo.bridges.reviewtwo;
  */
 public abstract class BasePhone {
 
+    /**
+     * 组合品牌
+     */
     private IBrand brand;
 
     protected BasePhone(IBrand brand) {
