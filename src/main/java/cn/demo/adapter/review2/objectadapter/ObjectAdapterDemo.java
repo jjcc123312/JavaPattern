@@ -8,7 +8,7 @@ package cn.demo.adapter.review2.objectadapter;
  *      源（Adaptee）：需要适配的对象或类型；
  *      目标（Target）：客户端所期待的目标；
  *      适配器（Adapter）:连接源和目标的中间对象；
- * 对象适配器：不使用继承，在Adapter中封装Adaptee，这里Adapter和Adaptee
+ * 对象适配器：不使用继承，在Adapter中封装Adaptee，这里Adapter和Adaptee是组合关系
  * @author Jjcc
  * @version 1.0.0
  * @description

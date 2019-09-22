@@ -10,7 +10,7 @@ package cn.demo.singletions.review;
 public class DetectionSingletonDemo1 {
 
     /**
-     * volatile：在他完成赋值之前，不会进行读的操作
+     * volatile：在他完成赋值之前，不会进行读的操作；不会出现指令重排的情况。
      */
     private static volatile DetectionSingletonDemo1 dsd = null;
 
