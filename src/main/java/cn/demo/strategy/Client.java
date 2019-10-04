@@ -17,7 +17,7 @@ public class Client {
 
     public static void main(String[] args) {
         Context context = new Context(new NewCustomerManyStrategyImpl());
-
+        context.pringPrice(1111);
         context.pringPrice(1111);
     }
 }
